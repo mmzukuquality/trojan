@@ -1,0 +1,7 @@
+import os
+
+def run(**args);
+	print "[*] In Dirlister modules"
+	print files = os.listdir(".")
+	
+	return str(files)
